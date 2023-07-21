@@ -49,11 +49,13 @@ export default function Create() {
             onChange={(e) => setCheckbox(!checkbox)}
           />
         </Form.Field>
-        <Button onClick={postData} type="submit">
+        <Button basic color="green" onClick={postData} type="submit">
           Submit
         </Button>
         <Link to="/read">
-          <Button onClick={readData}>Read Data</Button>
+          <Button basic color="olive" onClick={readData}>
+            Read Data
+          </Button>
         </Link>
       </Form>
     </div>

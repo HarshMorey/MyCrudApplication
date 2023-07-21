@@ -9,7 +9,9 @@ export default function Btn() {
   return (
     <>
       <Link to="/create">
-        <Button onClick={CreateData}>Create Your Data Data</Button>
+        <Button basic color="teal" onClick={CreateData}>
+          Create Your Data Data
+        </Button>
       </Link>
     </>
   );

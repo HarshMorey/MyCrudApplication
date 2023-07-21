@@ -58,11 +58,15 @@ export default function Read() {
                 </Table.Cell>
                 <Link to="/update">
                   <Table.Cell>
-                    <Button onClick={() => setData(data)}>Update</Button>
+                    <Button primary onClick={() => setData(data)}>
+                      Update
+                    </Button>
                   </Table.Cell>
                 </Link>
                 <Table.Cell>
-                  <Button onClick={() => onDelete(data.id)}>Delete</Button>
+                  <Button basic color="red" onClick={() => onDelete(data.id)}>
+                    Delete
+                  </Button>
                 </Table.Cell>
               </Table.Row>
             );
