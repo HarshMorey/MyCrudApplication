@@ -38,9 +38,9 @@ export default function Read() {
         <Table.Header>
           <Table.Row>
             <Table.HeaderCell>ID</Table.HeaderCell>
-            <Table.HeaderCell>Fist Name</Table.HeaderCell>
-            <Table.HeaderCell>Last Name</Table.HeaderCell>
-            <Table.HeaderCell>Checkbox</Table.HeaderCell>
+            <Table.HeaderCell>Todo Title</Table.HeaderCell>
+            <Table.HeaderCell>Description</Table.HeaderCell>
+            <Table.HeaderCell>Complete Status</Table.HeaderCell>
             <Table.HeaderCell>Update</Table.HeaderCell>
             <Table.HeaderCell>Delete</Table.HeaderCell>
           </Table.Row>
@@ -54,7 +54,7 @@ export default function Read() {
                 <Table.Cell>{data.firstName}</Table.Cell>
                 <Table.Cell>{data.lastName}</Table.Cell>
                 <Table.Cell>
-                  {data.checkbox ? 'Checked' : 'Unchecked'}
+                  {data.checkbox ? 'Completed' : 'Incomplete'}
                 </Table.Cell>
                 <Link to="/update">
                   <Table.Cell>

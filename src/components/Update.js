@@ -61,11 +61,13 @@ export default function Update() {
             onChange={(e) => setCheckbox(!checkbox)}
           />
         </Form.Field>
-        <Button type="submit" onClick={updateAPIData}>
+        <Button primary type="submit" onClick={updateAPIData}>
           Update
         </Button>
         <Link to="/read">
-          <Button onClick={readData}>Read Data</Button>
+          <Button basic color="olive" onClick={readData}>
+            Read Data
+          </Button>
         </Link>
       </Form>
     </div>

@@ -22,30 +22,34 @@ export default function Create() {
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
       },
-    })
-      .then((response) => response.json())
-      .then((json) => console.log(json));
+    });
+    setFirstName('');
+    setLastName('');
+    setCheckbox(false);
   };
   return (
     <div>
       <Form className="create-form">
         <Form.Field>
-          <label>First Name</label>
+          <label>Title</label>
           <input
-            placeholder="First Name"
+            value={firstName}
+            placeholder="Enter Title"
             onChange={(e) => setFirstName(e.target.value)}
           />
         </Form.Field>
         <Form.Field>
-          <label>Last Name</label>
+          <label>Description</label>
           <input
-            placeholder="Last Name"
+            value={lastName}
+            placeholder="Enter Details"
             onChange={(e) => setLastName(e.target.value)}
           />
         </Form.Field>
         <Form.Field>
           <Checkbox
-            label="I agree to the Terms and Conditions"
+            checked={checkbox}
+            label="Completed Or Not"
             onChange={(e) => setCheckbox(!checkbox)}
           />
         </Form.Field>
@@ -54,7 +58,7 @@ export default function Create() {
         </Button>
         <Link to="/read">
           <Button basic color="olive" onClick={readData}>
-            Read Data
+            Read Todos
           </Button>
         </Link>
       </Form>

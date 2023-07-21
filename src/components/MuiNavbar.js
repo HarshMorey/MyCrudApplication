@@ -4,17 +4,15 @@ import { Link } from 'react-router-dom';
 import './MuiNavbar.css';
 export default function MuiNavbar() {
   return (
-    <AppBar position="static" color="transparent" className="container">
-      <Toolbar>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          React Crud App
-        </Typography>
-        <Stack direction="row" spacing={2}>
+    <AppBar color="transparent" className="container">
+      <Toolbar className="second-container">
+        <Typography classname="heading">React Crud App</Typography>
+        <Stack className="links">
           <Link to="/create">
-            <Button color="inherit">Create New Data</Button>
+            <Button color="inherit">Create_New_Todo</Button>
           </Link>
           <Link to="/read">
-            <Button color="inherit">Read Data</Button>
+            <Button color="inherit">Read Todo</Button>
           </Link>
           <Link to="/">
             <Button color="inherit">Home</Button>
