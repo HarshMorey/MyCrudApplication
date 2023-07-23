@@ -2,12 +2,3 @@
   display: flex;
   justify-content: space-between;
 }
-.heading {
-  background-image: url
-    (
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png'
-    );
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
