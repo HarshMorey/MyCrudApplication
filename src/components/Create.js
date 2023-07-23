@@ -28,7 +28,7 @@ export default function Create() {
     setCheckbox(false);
   };
   return (
-    <div>
+    <div className="main">
       <Form className="create-form">
         <Form.Field>
           <label>Title</label>

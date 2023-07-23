@@ -36,7 +36,7 @@ export default function Update() {
   }, []);
 
   return (
-    <div>
+    <div className="main">
       <Form className="create-form">
         <Form.Field>
           <label>First Name</label>
