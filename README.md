@@ -1,3 +1,3 @@
 # MyCrudApplication
 
-[Edit on StackBlitz ⚡️](https://mycrudapplication.stackblitz.io/)
+[CLick Here To Run Application](https://mycrudapplication.stackblitz.io/)
