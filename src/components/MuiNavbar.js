@@ -9,7 +9,7 @@ export default function MuiNavbar() {
         <Typography classname="heading">React Crud App</Typography>
         <Stack className="links">
           <Link to="/create">
-            <Button color="inherit">Create_New_Todo</Button>
+            <Button color="inherit">Create_Todo</Button>
           </Link>
           <Link to="/read">
             <Button color="inherit">Read Todo</Button>
