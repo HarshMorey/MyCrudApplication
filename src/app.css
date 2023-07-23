@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .main {
+  background-image: linear-gradient(
+    to right top,
+    #321d16,
+    #32181a,
+    #2d1520,
+    #241426,
+    #15152a
+  );
   height: 100vh;
   color: whitesmoke;
   background-color: #212121;
