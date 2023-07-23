@@ -1,3 +1,3 @@
 # MyCrudApplication
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/stackblitz-starters-sfdz1b)
+[Edit on StackBlitz ⚡️](https://mycrudapplication.stackblitz.io/)
